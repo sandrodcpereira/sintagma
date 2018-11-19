@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 132 120" style="enable-background:new 0 0 132 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F8F8F8;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:#A39FC4;}
+	.st3{opacity:0.35;fill:url(#SVGID_3_);enable-background:new    ;}
+	.st4{fill:#180E6C;}
+	.st5{fill:#D02003;}
+</style>
+<title>icon-revision copy 3</title>
+<circle class="st0" cx="66" cy="60" r="60"/>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M6,0h120l0,0v60c0,33.1-26.9,60-60,60l0,0C32.9,120,6,93.1,6,60V0L6,0z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st1">
+		<g>
+			<path class="st2" d="M65.4,18h1.3c13.2,0,23.9,10.7,23.9,23.9v27.4c0,13.2-10.7,23.9-23.9,23.9h-1.3c-13.2,0-23.9-10.7-23.9-23.9
+				V41.9C41.5,28.7,52.2,18,65.4,18z"/>
+			
+				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="66.0671" y1="99.1163" x2="66.0671" y2="27.044" gradientTransform="matrix(1 0 0 -1 0 120.5512)">
+				<stop  offset="0" style="stop-color:#190A34;stop-opacity:0"/>
+				<stop  offset="1" style="stop-color:#190A34"/>
+			</linearGradient>
+			<path class="st3" d="M65.4,18h1.3c13.2,0,23.9,10.7,23.9,23.9v27.4c0,13.2-10.7,23.9-23.9,23.9h-1.3c-13.2,0-23.9-10.7-23.9-23.9
+				V41.9C41.5,28.7,52.2,18,65.4,18z"/>
+			<path class="st4" d="M69,100.1v22c0,1.4-1.1,2.5-2.5,2.5l0,0h-1.1c-1.4,0-2.5-1.1-2.5-2.5l0,0v-22l0,0
+				C63,100.1,69,100.1,69,100.1z"/>
+			<path class="st4" d="M90.6,63.8H73.4c-1.4,0-2.5-1.1-2.5-2.5v-1.6c0-1.4,1.1-2.5,2.5-2.5l0,0h17.2l0,0V63.8L90.6,63.8z"/>
+			<path class="st4" d="M90.6,54H73.4c-1.4,0-2.5-1.1-2.5-2.5l0,0v-1.6c0-1.4,1.1-2.5,2.5-2.5l0,0h17.2l0,0V54L90.6,54L90.6,54z"/>
+			<path class="st4" d="M90.6,44.2H73.4c-1.4,0-2.5-1.1-2.5-2.5l0,0v-1.6c0-1.4,1.1-2.5,2.5-2.5l0,0h17.2l0,0V44.2L90.6,44.2
+				L90.6,44.2z"/>
+			<path class="st4" d="M41.5,37.6h17.2c1.4,0,2.5,1.1,2.5,2.5l0,0v1.6c0,1.4-1.1,2.5-2.5,2.5l0,0H41.5l0,0V37.6L41.5,37.6z"/>
+			<path class="st4" d="M41.5,47.4h17.2c1.4,0,2.5,1.1,2.5,2.5l0,0v1.6c0,1.4-1.1,2.5-2.5,2.5l0,0H41.5l0,0V47.4L41.5,47.4z"/>
+			<path class="st4" d="M41.5,57.2h17.2c1.4,0,2.5,1.1,2.5,2.5v1.6c0,1.4-1.1,2.5-2.5,2.5c0,0,0,0,0,0H41.5l0,0V57.2L41.5,57.2
+				L41.5,57.2z"/>
+			<path class="st4" d="M41.4,68.7h49.3c0.8,0,1.5,0.7,1.5,1.5v0.3c0,0.8-0.7,1.5-1.5,1.5H41.4c-0.8,0-1.5-0.7-1.5-1.5v-0.3
+				C39.9,69.4,40.6,68.7,41.4,68.7z"/>
+			<path class="st4" d="M66,99.1c-16.1,0-29.3-12.5-30.3-28.5c-0.1-1-0.9-1.8-2-1.8l0,0c-1.1,0-2,0.9-2,2c0,0,0,0.1,0,0.1
+				c1.2,18.9,17.5,33.3,36.4,32.1c17.3-1.1,31.1-14.8,32.1-32.1c0.1-1.1-0.8-2.1-1.9-2.1c0,0-0.1,0-0.1,0l0,0c-1,0-1.9,0.8-2,1.8
+				C95.3,86.6,82.1,99.1,66,99.1z"/>
+			<circle class="st5" cx="78.3" cy="79.3" r="2.5"/>
+		</g>
+	</g>
+</g>
+</svg>
