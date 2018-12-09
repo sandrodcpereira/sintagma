@@ -48,14 +48,14 @@ $(document).ready(function(){
         var scrollTop = 40;
         if($(window).scrollTop() >= scrollTop){
             $('.logo-mobile').css("height", "26px");
-            $('.logo-mobile > span').css("width", "122px");
+            $('.logo-mobile > span').css("width", "140px");
             $('.logo-mobile > span').css("height", "26px");
             $('.hamburger').css("margin", "5px");
             $('.nav-menu, .nav-menu-mobile').css("box-shadow", "rgba(0, 0, 0, 0.1) 0px 10px 20px, rgba(0, 0, 0, 0.1) 0px 6px 6px");            
         }
         if($(window).scrollTop() < scrollTop){
             $('.logo-mobile').css("height", "100px");
-            $('.logo-mobile > span').css("width", "130px");
+            $('.logo-mobile > span').css("width", "150px");
             $('.logo-mobile > span').css("height", "100px");
             $('.hamburger').css("margin", "38px 10px");
             $('.nav-menu, .nav-menu-mobile').css("box-shadow", "none");
