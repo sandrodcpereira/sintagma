@@ -84,6 +84,14 @@
                         'french' : 'Contactez-nous',
                     },
 
+                    'class:translate-video' : {
+                        'portuguese' : '???',
+                        'english' : '???',
+                        'spanish' : '[spanish]',
+                        'french' : '[video ici]',
+                    },
+
+
                     'class:translate-translation-title' : {
                         'portuguese' : 'Tradução',
                         'english' : 'Translation',

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('#sintagma-page').delay(200).fadeIn(1700);
+    $('#sintagma-page').delay(50).fadeIn(200);
 });
 
 $(document).ready(function() {

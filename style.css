@@ -1,27 +1,10 @@
+/* CSS NORMALISE */
+
 aa,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul,var{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
-/* GENERAL */
-
-
-.come-in, .already-visible {
-  transform: translateX(50px);
-  animation: come-in 0.8s ease forwards;
-  opacity: 1;
-}
-.come-in:nth-child(odd) {
-  animation-duration: 0.6s; /* So they look staggered */
-}
-
-.content-slide-js {opacity: 0;}
-
-@keyframes come-in {
-  to { transform: translateX(0); opacity: 1;}
-}
-
-
+/* GENERAL STYLES */
 
 .break {display: block;}
-
 
 html {height: 100%; background-color: #ffffff;line-height: 0;}
 body {height: 100%; font-family: "Azo Sans", "azo-sans-web", sans-serif; font-style: normal; color: #474747; }
@@ -55,6 +38,28 @@ p {font-size: 16px; line-height: 22px; margin-bottom: 10px}
 
 .cta:hover {
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.video {
+	display: block;
+	width: 176px;
+	text-decoration: none;
+	padding: 8px 20px;
+	border: 2px solid #190a77;
+	color: #190a77;
+	font-weight: 700;
+	font-size: 18px;
+	border-radius: 10px;
+	
+	margin: 10px auto 0 auto;
+	transition: box-shadow .2s ease-in;
+}
+
+.video:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	background-color: #190a77;
+	color: #ffffff;
+
 }
 
 section {
@@ -98,7 +103,7 @@ section {
 .bg-grey-light {background-color: #f8f8f8;}
 .bg-grey-dark {background-color: #e7e7e7;}
 
-/* MENU */
+/* NAVBAR */
 
 .nav-top > .container {
 	background-image: url(img/flags.png);
@@ -223,8 +228,7 @@ section {
 	background-position: center right;
 }
 
-/* LAYOUT */
-
+/* LAYOUT ELEMENTS */
 
 #footer {
 	color: #ffffff;
@@ -293,7 +297,8 @@ section {
 }
 
 
-/* SERVICE */
+/* SERVICES */
+
 .item-z {
 	text-align: left;
 	background-repeat: no-repeat;
@@ -321,7 +326,7 @@ section {
 .item-z.multimedia {background-image: url(img/services/icon-multimedia.svg);}
 
 
-/*TESTIMONIALS*/
+/* TESTIMONIALS */
 
 #testemonials-nav {height: 14px; vertical-align: top; margin-top: 20px}
 
@@ -370,7 +375,7 @@ section {
 	font-weight: 600
 }
 
-/*CLIENTS*/
+/* CLIENTS */
 
 .clients {
 	position: relative;
@@ -433,7 +438,7 @@ section {
 #ooona, #ooona > span {background-image: url(img/clients/logo-ooona.png);}
 #spot, #spot > span {background-image: url(img/clients/logo-spot.png);}
 
-/*TEAM*/
+/* TEAM */
 
 .team-item {
 	margin-top: 40px;
@@ -467,9 +472,9 @@ section {
 .team-item.foto-rita-f {background-image: url(img/team/foto-rita-f.png);}
 
 
-/*CONTACT*/
+/* CONTACT */
 
-.item-4.contact {
+.item-3.contact {
 	text-align: center;
 	padding-top: 44px;
 	box-sizing: border-box;
@@ -479,13 +484,13 @@ section {
 	margin-bottom: 20px;
 }
 
-.item-4.contact > h3 {
+.item-3.contact > h3 {
 	font-size: 18px;
 	font-weight: 800;
 	margin-bottom: 10px;
 }
 
-.item-4.contact > p {
+.item-3.contact > p {
 	font-size: 14px;
 	line-height: 20px
 }
@@ -497,7 +502,7 @@ section {
 
 .contact > p > a {color: #474747}
 
-/*moving header*/
+/* MOVING HEADERS */
 
 .header-main {
 	width: 100%;
@@ -524,17 +529,17 @@ section {
 .film-roll {
 	width: 2880px;
 	position: relative;
-	left: 0px;
+	left: 40px;
 	animation: backgroundScroll 60s linear infinite;
 }
 
 @-webkit-keyframes backgroundScroll {
 	from {
-		left: 0;
+		left: -40px; /* -40 to avoid having the initial gap show on pageload*/
 	}
 
 	to {
-		left: -1440px;
+		left: -1480px;
 	}
 }
 
@@ -560,7 +565,7 @@ section {
 	height: 320px;
 	width: 220px;
 	margin-left: 40px;
-	background-color: black;
+	background-color: #a09dc2;
 	opacity: .4;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -577,21 +582,22 @@ section {
 .film-main-7 {background-image: url(img/header/film-7.png);}
 .film-main-8 {background-image: url(img/header/film-8.png);}
 
+/* RESPONSIVE MEDIA QUERIES */
+
 @media (max-width: 700px) {
 
 	.display-none-mobile {
 		display: none;
 	}
 
-	@-webkit-keyframes backgroundScroll {
-		from {
-			left: 0;
-		}
-
-		to {
-			left: -720px;
-		}
+	.film-roll {
+		animation-iteration-count: 0;
+		width: 720px;
+		left: calc( 50% - 30px);
+		transform: translateX(-50%);
 	}
+
+	.film-main {background-image: none;}
 
 	.item-z {
 		text-align: left;
@@ -612,6 +618,7 @@ section {
 
 
 	/* MENU */
+
 	.nav-menu {display: none;}
 
 	.nav-menu-mobile {
@@ -722,6 +729,8 @@ section {
 	}
 
 }
+
+/* RETINA ASSETS */
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 	#fantasporto, #fantasporto > span {background-image: url(img/clients/logo-fantasporto@2x.png);}
