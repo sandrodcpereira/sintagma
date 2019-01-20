@@ -352,15 +352,31 @@
 
 	<section class="bg-grey-light">
 		<div class="container">
+
+
+
+
 			<form action="https://mailthis.to/sintagma" method="POST" >
-			    <input type="text" name="name" placeholder="Your name">
-			    <input type="email" name="_replyto" placeholder="Your email">
-			    <textarea name="message" placeholder="Enter your message here"></textarea>
+
+				<label class="translate-name" for="name">Nome</label>
+			    <input type="text" name="name" required>
+
+				<label class="translate-email" for="email">Email</label>
+			    <input type="email" name="_replyto" required>
+
+				<label class="translate-message" for="message">Mensagem</label>
+			    <textarea name="message" required></textarea>
+
+
 			    <input type="hidden" name="_subject" value="Contact form submitted">
+
 			    <input type="hidden" name="_honeypot" value="">
-			    <input type="hidden" name="_after" value="https://myhomepage.net/">
-			    <input type="submit" value="Send">
+
+			    <input id="send-actual" type="submit" value="Send">
+
 			</form>
+
+			<div id="send-alias" class="cta translate-submit">Enviar</div> <!-- send alias is necessary for the button to support translations, click is handled by js -->
 		</div>
 	</section>
 

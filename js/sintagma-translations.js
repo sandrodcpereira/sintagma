@@ -232,9 +232,6 @@
                         'french' : 'Réseaux sociaux',
                     },
 
-
-
-
                     'class:translate-testemonial1-body' : {
                         'portuguese' : 'A colaboração com a sintagma na leccionação de seminários de pós-graduação em Tradução Audiovisual inglês-português e alemão-português foi uma oportunidade muito produtiva que me permitiu ficar a conhecer a qualidade, o rigor, a exigência e o profissionalismo do trabalho desenvolvido na sintagma, bem como o empenho na formação dos seus colaboradores.',
                         'english' : 'Collaborating with sintagma in the teaching of graduate seminars in Audiovisual Translation (English-Portuguese and German-Portuguese) was a very productive opportunity that enabled me to get to know the quality, precision, exigency and professionalism of the work carried out by sintagma as well as the commitment to training its employees.',
@@ -380,6 +377,38 @@
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
+
+                    // form
+
+                    'class:translate-name' : {
+                        'portuguese' : 'Nome',
+                        'english' : 'Name',
+                        'spanish' : 'Nombre',
+                        'french' : 'Nom',
+                    },
+
+                    'class:translate-email' : {
+                        'portuguese' : 'Email',
+                        'english' : 'Email',
+                        'spanish' : '#TODO',
+                        'french' : '#TODO',
+                    },
+
+                    'class:translate-message' : {
+                        'portuguese' : 'Mensagem',
+                        'english' : 'Message',
+                        'spanish' : '#TODO',
+                        'french' : '#TODO',
+                    },
+
+                    'class:translate-submit' : {
+                        'portuguese' : 'Enviar',
+                        'english' : 'Send',
+                        'spanish' : '#TODO',
+                        'french' : '#TODO',
+                    }
+
+
 
 
 

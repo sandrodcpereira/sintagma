@@ -51,7 +51,7 @@ $(document).ready(function(){
             $('.logo-mobile > span').css("width", "140px");
             $('.logo-mobile > span').css("height", "26px");
             $('.hamburger').css("margin", "5px");
-            $('.nav-menu, .nav-menu-mobile').css("box-shadow", "rgba(0, 0, 0, 0.1) 0px 10px 20px, rgba(0, 0, 0, 0.1) 0px 6px 6px");            
+            $('.nav-menu, .nav-menu-mobile').css("box-shadow", "rgba(0, 0, 0, 0.1) 0px 10px 20px");            
         }
         if($(window).scrollTop() < scrollTop){
             $('.logo-mobile').css("height", "100px");
@@ -160,4 +160,11 @@ $('.lang-indicator').click(function(event){
 
 $(document).click(function(){
    $('.lang-selector').fadeOut(); 
+});
+
+// form
+
+
+$( "#send-alias" ).click(function() {
+  $( "#send-actual" ).click();
 });
