@@ -77,6 +77,12 @@
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Contacts',
                     },
+                    'class:translate-about' : {
+                        'portuguese' : 'Sobre',
+                        'english' : 'About',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
                     'class:translate-cta' : {
                         'portuguese' : 'Contacte-nos',
                         'english' : 'Contact us',

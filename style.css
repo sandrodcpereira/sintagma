@@ -40,26 +40,6 @@ p {font-size: 16px; line-height: 22px; margin-bottom: 10px}
 	background-color: #b71c03;
 }
 
-.video {
-	display: block;
-	width: 176px;
-	text-decoration: none;
-	padding: 8px 20px;
-	border: 2px solid #190a77;
-	color: #190a77;
-	font-weight: 700;
-	font-size: 18px;
-	border-radius: 6px;
-	margin: 10px auto 0 auto;
-	transition: background-color .1s;
-	cursor: pointer;
-}
-
-.video:hover {
-	background-color: #190a77;
-	color: #ffffff;
-
-}
 
 section {
 	width: 100%;
@@ -436,6 +416,22 @@ section {
 #ccb, #ccb > span {background-image: url(img/clients/logo-ccb.png);}
 #ooona, #ooona > span {background-image: url(img/clients/logo-ooona.png);}
 #spot, #spot > span {background-image: url(img/clients/logo-spot.png);}
+
+/* ABOUT */
+
+#about .container {
+	max-width: 750px;
+}
+
+#about p {
+	text-align: left;
+	margin: 20px auto 0 auto;
+}
+
+#about h2 {
+	margin-bottom: 40px;
+}
+
 
 /* TEAM */
 
