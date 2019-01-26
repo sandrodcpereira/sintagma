@@ -83,6 +83,7 @@
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
+
                     'class:translate-cta' : {
                         'portuguese' : 'Contacte-nos',
                         'english' : 'Contact us',
@@ -148,6 +149,23 @@
                     },
 
                     // new, dubbing ends
+
+                    // new, about
+
+                    'class:translate-about-title' : {
+                        'portuguese' : 'Sobre a sintagma',
+                        'english' : 'About sintagma',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Sous-titrage',
+                    },
+                    'class:translate-about-content' : {
+                        'portuguese' : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                        'english' : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+
+                    // new, about ends
 
                     'class:translate-interpretation-title' : {
                         'portuguese' : 'Interpretação',
