@@ -231,24 +231,24 @@ section {
 	color: #e37968;
 }
 
-.footer-logo {
-	display: block;
-	background-position: center center;
-	background-image: url(img/sintagma-logo-footer.svg);
-	background-repeat: no-repeat;
+.logo-footer {
+	opacity: .5;
+	margin: 10px auto 20px auto;
 	width: 64px;
 	height: 64px;
-	margin: 10px auto 20px auto;
-	opacity: .4;
-	transition: transform .8s ease;
+	transition: opacity .5s;
+	background-image: url('img/sintagma-logo-footer.png');
 }
 
-.footer-logo:hover {
-	-ms-transform: rotate(-360deg); /* IE 9 */
-	-webkit-transform: rotate(-360deg); /* Chrome, Safari, Opera */
-	transform: rotate(-360deg);
+.logo-footer:hover {
+	animation: playY 1.4s steps(24) 1;
+	opacity: .8;
 }
 
+@keyframes playY {
+  from {background-position-x: 0px;}
+  to {background-position-x: -1536px;}
+}
 
 .item-2 {
 	vertical-align: top;
@@ -812,6 +812,12 @@ input[type="submit"] {display: none;}
 	.team-item.foto-pedro {background-image: url(img/team/foto-pedro@2x.png);}
 	.team-item.foto-joao {background-image: url(img/team/foto-joao@2x.png);}
 	.team-item.foto-rita-f {background-image: url(img/team/foto-rita-f@2x.png);}
+
+	.logo-footer {
+		background-image: url('img/sintagma-logo-footer@2x.png');
+		-webkit-background-size: 1536px 64px;
+		background-size: 1536px 64px;
+	}
 }
 
 
