@@ -159,11 +159,20 @@
                         'french' : 'Sous-titrage',
                     },
                     'class:translate-about-content' : {
-                        'portuguese' : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                        'portuguese' : 'A nossa filosofia mantém-se a mesma: oferecer o melhor serviço, qualidade e tornar todo o conteúdo audiovisual acessível a todos. Como empresa, a nossa missão é trabalhar sob os padrões mais elevados do mercado. Quer sejam filmes ou séries, a nossa tradução e legendagem respeita a voz e ritmo do original.',
                         'english' : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
+
+                    'class:translate-about-content-2' : {
+                        'portuguese' : 'Sabemos a importância de acompanhar os estudos mais recentes no campo da TAV e, após duas décadas fiéis a este princípio, continuamos a aperfeiçoar a nossa atividade enquanto especialistas em legendagem, localização, dobragem, audiodescrição e serviços de inserção de legendagem.',
+                        'english' : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+
+
 
                     // new, about ends
 
