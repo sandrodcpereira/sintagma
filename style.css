@@ -324,9 +324,9 @@ section {
 
 /* TESTIMONIALS */
 
-#testemonials-nav {height: 14px; vertical-align: top; margin-top: 20px}
+#testimonials-nav {height: 14px; vertical-align: top; margin-top: 20px}
 
-#testemonials-nav > div {
+#testimonials-nav > div {
 	display: inline-block;
 	width: 10px;
 	height: 10px;
@@ -337,24 +337,24 @@ section {
 	transition-timing-function: ease;
 }
 
-.testemonial-active {
+.testimonial-active {
 	background: #958EB9;
 	border: 2px solid #190a77 !important;
 }
 
-#testemonials {
+#testimonials {
 	display: block;
 	width: 80%;
 	max-width: 600px;
 	margin: 0 auto;
 	height: 400px;
 	position: relative;
-	background-image: url(img/testemonial-quotes.svg);
+	background-image: url(img/testimonial-quotes.svg);
 	background-position: top left;
 	background-repeat: no-repeat;
 }
 
-.testemonial {
+.testimonial {
 	display: block;
 	width: 100%;
 	max-width: 400px;
@@ -365,9 +365,9 @@ section {
 	text-align: left;
 }
 
-#testemonial-2, #testemonial-3, #testemonial-4, #testemonial-5 {display: none}
+#testimonial-2, #testimonial-3, #testimonial-4, #testimonial-5 {display: none}
 
-.testemonial > p:last-child {
+.testimonial > p:last-child {
 	font-weight: 600
 }
 

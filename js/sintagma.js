@@ -69,39 +69,39 @@ $('.hamburger, .nav-menu-mobile > ul > li > a').click(function(){
 	$('.nav-menu-mobile > ul').toggleClass("is-open")
 });
 
-$('#testemonial-toggle-1').click(function(){
-	$('#testemonials-nav > div').removeClass("testemonial-active");
-	$(this).addClass("testemonial-active");
-	$('.testemonial').fadeOut();
-	$('#testemonial-1').fadeIn();
+$('#testimonial-toggle-1').click(function(){
+	$('#testimonials-nav > div').removeClass("testimonial-active");
+	$(this).addClass("testimonial-active");
+	$('.testimonial').fadeOut();
+	$('#testimonial-1').fadeIn();
 });
 
-$('#testemonial-toggle-2').click(function(){
-	$('#testemonials-nav > div').removeClass("testemonial-active");
-	$(this).addClass("testemonial-active");
-	$('.testemonial').fadeOut();
-	$('#testemonial-2').fadeIn();
+$('#testimonial-toggle-2').click(function(){
+	$('#testimonials-nav > div').removeClass("testimonial-active");
+	$(this).addClass("testimonial-active");
+	$('.testimonial').fadeOut();
+	$('#testimonial-2').fadeIn();
 });
 
-$('#testemonial-toggle-3').click(function(){
-	$('#testemonials-nav > div').removeClass("testemonial-active");
-	$(this).addClass("testemonial-active");
-	$('.testemonial').fadeOut();
-	$('#testemonial-3').fadeIn();
+$('#testimonial-toggle-3').click(function(){
+	$('#testimonials-nav > div').removeClass("testimonial-active");
+	$(this).addClass("testimonial-active");
+	$('.testimonial').fadeOut();
+	$('#testimonial-3').fadeIn();
 });
 
-$('#testemonial-toggle-4').click(function(){
-	$('#testemonials-nav > div').removeClass("testemonial-active");
-	$(this).addClass("testemonial-active");
-	$('.testemonial').fadeOut();
-	$('#testemonial-4').fadeIn();
+$('#testimonial-toggle-4').click(function(){
+	$('#testimonials-nav > div').removeClass("testimonial-active");
+	$(this).addClass("testimonial-active");
+	$('.testimonial').fadeOut();
+	$('#testimonial-4').fadeIn();
 });
 
-$('#testemonial-toggle-5').click(function(){
-	$('#testemonials-nav > div').removeClass("testemonial-active");
-	$(this).addClass("testemonial-active");
-	$('.testemonial').fadeOut();
-	$('#testemonial-5').fadeIn();
+$('#testimonial-toggle-5').click(function(){
+	$('#testimonials-nav > div').removeClass("testimonial-active");
+	$(this).addClass("testimonial-active");
+	$('.testimonial').fadeOut();
+	$('#testimonial-5').fadeIn();
 });
 
 $('.maps').click(function () {
