@@ -33,6 +33,10 @@ h1 {
 	margin-bottom: 40px;
 	text-shadow: 0px 2px 20px rgba(255, 255, 255, 1);
 	pointer-events: none;
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
 }
 h2 {font-size: 32px; margin-bottom: 20px; font-weight: 600;}
 h3 {font-size: 26px; margin-bottom: 20px; font-weight: 600;}
@@ -324,30 +328,10 @@ section {
 
 /* TESTIMONIALS */
 
-#testimonials-nav {height: 14px; vertical-align: top; margin-top: 20px}
-
-#testimonials-nav > div {
-	display: inline-block;
-	width: 10px;
-	height: 10px;
-	border: 2px solid #958EB9;
-	border-radius: 50px;
-	cursor: pointer;
-	transition: background .5s, border .2s;
-	transition-timing-function: ease;
-}
-
-.testimonial-active {
-	background: #958EB9;
-	border: 2px solid #190a77 !important;
-}
-
 #testimonials {
-	display: block;
-	width: 80%;
+	width: 100%;
 	max-width: 600px;
 	margin: 0 auto;
-	height: 400px;
 	position: relative;
 	background-image: url(img/testimonial-quotes.svg);
 	background-position: top left;
@@ -355,20 +339,41 @@ section {
 }
 
 .testimonial {
-	display: block;
-	width: 100%;
-	max-width: 400px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	padding: 40px 80px;
 	text-align: left;
 }
 
-#testimonial-2, #testimonial-3, #testimonial-4, #testimonial-5 {display: none}
-
 .testimonial > p:last-child {
-	font-weight: 600
+	font-weight: 600;
+}
+
+.slick-dots {
+}
+
+.slick-dots > li {
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.slick-dots > li > button {
+	display: block;
+	height: 14px;
+	width: 14px;
+	padding: 0;
+	margin: 0;
+	border: 2px solid #958EB9;
+	background: transparent;
+	border-radius: 50px;
+	transition: background .5s, border .2s;
+	transition-timing-function: ease;
+	font-size: 0;
+	color: inherit;
+}
+
+.slick-dots > li.slick-active > button {
+	background: #958EB9;
+	border: 2px solid #190a77 !important;
 }
 
 /* CLIENTS */
@@ -536,6 +541,10 @@ input[type="text"], input[type="email"], textarea {
 	border-radius: 6px;
 	border: 1px solid #a39ec5;
 	margin: 10px 0 30px 0;
+}
+
+input:focus, textarea:focus {
+	border: 2px solid #190a77;
 }
 
 label {

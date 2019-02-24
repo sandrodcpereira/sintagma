@@ -1,5 +1,52 @@
+// slider
+
+$('.film').slick({
+	slidesToShow: 6,
+	slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 2000,
+	arrows: false,
+	dots: false,
+		pauseOnHover: false,
+		responsive: [
+	{
+		breakpoint: 1200,
+		settings: {
+			slidesToShow: 4
+		}
+	},
+	{
+		breakpoint: 768,
+		settings: {
+			slidesToShow: 3
+		}
+	},
+
+	{
+		breakpoint: 520,
+		settings: {
+			slidesToShow: 2
+		}
+	}]
+});
+
+
+$('#testimonials').slick({
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 4000,
+	arrows: false,
+	dots: true,
+		pauseOnHover: true,
+		responsive: [
+	{
+		
+	}]
+});
+
 $(document).ready(function(){
-	$('#sintagma-page').delay(50).fadeIn(200);
+	$('#sintagma-page').delay(0).fadeIn(200);
 });
 
 $(document).ready(function() {
@@ -69,41 +116,6 @@ $('.hamburger, .nav-menu-mobile > ul > li > a').click(function(){
 	$('.nav-menu-mobile > ul').toggleClass("is-open")
 });
 
-$('#testimonial-toggle-1').click(function(){
-	$('#testimonials-nav > div').removeClass("testimonial-active");
-	$(this).addClass("testimonial-active");
-	$('.testimonial').fadeOut();
-	$('#testimonial-1').fadeIn();
-});
-
-$('#testimonial-toggle-2').click(function(){
-	$('#testimonials-nav > div').removeClass("testimonial-active");
-	$(this).addClass("testimonial-active");
-	$('.testimonial').fadeOut();
-	$('#testimonial-2').fadeIn();
-});
-
-$('#testimonial-toggle-3').click(function(){
-	$('#testimonials-nav > div').removeClass("testimonial-active");
-	$(this).addClass("testimonial-active");
-	$('.testimonial').fadeOut();
-	$('#testimonial-3').fadeIn();
-});
-
-$('#testimonial-toggle-4').click(function(){
-	$('#testimonials-nav > div').removeClass("testimonial-active");
-	$(this).addClass("testimonial-active");
-	$('.testimonial').fadeOut();
-	$('#testimonial-4').fadeIn();
-});
-
-$('#testimonial-toggle-5').click(function(){
-	$('#testimonials-nav > div').removeClass("testimonial-active");
-	$(this).addClass("testimonial-active");
-	$('.testimonial').fadeOut();
-	$('#testimonial-5').fadeIn();
-});
-
 $('.maps').click(function () {
 	$('.maps iframe').css("pointer-events", "auto");
 });
@@ -164,42 +176,9 @@ $(document).click(function(){
 
 // form
 
-
 $( "#send-alias" ).click(function() {
   $( "#send-actual" ).click();
 });
 
 
-// slider
 
-$(document).ready(function(){
-	$('.film').slick({
-		slidesToShow: 6,
-		slidesToScroll: 1,
-		autoplay: true,
-		autoplaySpeed: 2000,
-		arrows: false,
-		dots: false,
-			pauseOnHover: false,
-			responsive: [
-		{
-			breakpoint: 1200,
-			settings: {
-				slidesToShow: 4
-			}
-		},
-		{
-			breakpoint: 768,
-			settings: {
-				slidesToShow: 3
-			}
-		},
-
-		{
-			breakpoint: 520,
-			settings: {
-				slidesToShow: 2
-			}
-		}]
-	});
-});
