@@ -10,7 +10,7 @@ $('.film').slick({
 		pauseOnHover: false,
 		responsive: [
 	{
-		breakpoint: 1200,
+		breakpoint: 1320,
 		settings: {
 			slidesToShow: 4
 		}
@@ -45,9 +45,30 @@ $('#testimonials').slick({
 	}]
 });
 
-$(document).ready(function(){
+/* $(document).ready(function(){
 	$('#sintagma-page').delay(0).fadeIn(200);
+}); */
+
+$(document).ready(function() {
+	$('.slide')
+	  .delay(300)
+	  .queue(function (next) { 
+	    $(this).css('opacity', '.7'); 
+	    next(); 
+	});
 });
+
+
+$(window).on('resize', function(){
+	$('.slide')
+	  .delay(300)
+	  .queue(function (next) { 
+	    $(this).css('opacity', '.7'); 
+	    next(); 
+	});
+});
+
+
 
 $(document).ready(function() {
   $( ".ltool-language.portuguese" ).click();

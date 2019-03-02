@@ -10,7 +10,7 @@ aa,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd
 html {height: 100%; background-color: #ffffff;line-height: 0;}
 body {height: 100%; font-family: "Azo Sans", "azo-sans-web", sans-serif; font-style: normal; color: #474747; }
 
-#sintagma-page {display: none;}
+/* #sintagma-page {display: none;} */
 
 hr {
 	width: 100%;
@@ -467,7 +467,7 @@ section {
 	display: inline-block;
 	background-repeat: no-repeat;
 	background-position: top center;
-	-webkit-background-size: 1    40px;
+	-webkit-background-size: 140px;
 	background-size: 140px;
 }
 
@@ -566,8 +566,6 @@ input[type="submit"] {display: none;}
 .header-main {
 	width: 100%;
 	position: relative;
-	min-height: 200px;
-	max-height: 500px;
 	margin-top: 140px;
 	padding: 0;
 }
@@ -583,12 +581,17 @@ input[type="submit"] {display: none;}
 
 /* Slider */
 
+.film {
+	text-align: center;
+}
+
 .slide > img {
 	-webkit-background-size: contain;
 	background-size: contain;
 	background-repeat: no-repeat;
 	border-radius: 2px;
 	opacity: .4;
+	width: 100%;
 }
 
 .slide {
@@ -598,7 +601,13 @@ input[type="submit"] {display: none;}
 	background-size: 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
+
+	display: inline-block;
+    width: 6%;
+    opacity: 0;
+    transition: width .2s ease-out, opacity .4s;
 }
+
 
 .slick-slide {
     margin: 0px 0px;
