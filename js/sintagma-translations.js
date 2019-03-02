@@ -77,12 +77,27 @@
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Contacts',
                     },
+                    'class:translate-about' : {
+                        'portuguese' : 'Sobre',
+                        'english' : 'About',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+
                     'class:translate-cta' : {
                         'portuguese' : 'Contacte-nos',
                         'english' : 'Contact us',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Contactez-nous',
                     },
+
+                    'class:translate-video' : {
+                        'portuguese' : '???',
+                        'english' : '???',
+                        'spanish' : '[spanish]',
+                        'french' : '[video ici]',
+                    },
+
 
                     'class:translate-translation-title' : {
                         'portuguese' : 'Tradução',
@@ -134,6 +149,32 @@
                     },
 
                     // new, dubbing ends
+
+                    // new, about
+
+                    'class:translate-about-title' : {
+                        'portuguese' : 'Sobre a sintagma',
+                        'english' : 'About sintagma',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Sous-titrage',
+                    },
+                    'class:translate-about-content' : {
+                        'portuguese' : 'A nossa filosofia mantém-se a mesma: oferecer o melhor serviço e qualidade, de forma a garantir conteúdo audiovisual de excelência ao espectador. Quer sejam filmes ou séries, a nossa tradução e legendagem respeita a voz e ritmo do original.',
+                        'english' : 'Sintagma’s philosophy remains the same: to offer the best service and quality to our clients, while ensuring excellence in audiovisual content. Whether we’re working on movies or TV series, our translation and subtitling respects the voice and rhythm of the original.',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+
+                    'class:translate-about-content-2' : {
+                        'portuguese' : 'Sabemos a importância de acompanhar os estudos mais recentes no campo da TAV e, após duas décadas fiéis a este princípio, continuamos a aperfeiçoar a nossa atividade enquanto especialistas em legendagem, localização, dobragem, audiodescrição e serviços de inserção de legendas.',
+                        'english' : 'We understand the importance of working with the most recent studies in the field of Audiovisual Translation in mind and, after adhering to this principle for over two decades, we continue striving to perfect our craft, be it subtitling, language localisation, dubbing, audio description or subtitle embedding services.',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+
+
+
+                    // new, about ends
 
                     'class:translate-interpretation-title' : {
                         'portuguese' : 'Interpretação',
@@ -223,9 +264,6 @@
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Réseaux sociaux',
                     },
-
-
-
 
                     'class:translate-testemonial1-body' : {
                         'portuguese' : 'A colaboração com a sintagma na leccionação de seminários de pós-graduação em Tradução Audiovisual inglês-português e alemão-português foi uma oportunidade muito produtiva que me permitiu ficar a conhecer a qualidade, o rigor, a exigência e o profissionalismo do trabalho desenvolvido na sintagma, bem como o empenho na formação dos seus colaboradores.',
@@ -372,6 +410,38 @@
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
+
+                    // form
+
+                    'class:translate-name' : {
+                        'portuguese' : 'Nome',
+                        'english' : 'Name',
+                        'spanish' : 'Nombre',
+                        'french' : 'Nom',
+                    },
+
+                    'class:translate-email' : {
+                        'portuguese' : 'Email',
+                        'english' : 'Email',
+                        'spanish' : '#TODO',
+                        'french' : '#TODO',
+                    },
+
+                    'class:translate-message' : {
+                        'portuguese' : 'Mensagem',
+                        'english' : 'Message',
+                        'spanish' : '#TODO',
+                        'french' : '#TODO',
+                    },
+
+                    'class:translate-submit' : {
+                        'portuguese' : 'Enviar',
+                        'english' : 'Send',
+                        'spanish' : '#TODO',
+                        'french' : '#TODO',
+                    }
+
+
 
 
 
