@@ -376,6 +376,13 @@
                         'french' : 'Lorem ipsum',
                     },
 
+                    'class:translate-role-translator-reviewer' : {
+                        'portuguese' : 'Tradutor/Revisor',
+                        'english' : 'Translator/Reviewer',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',  
+                    },
+
                     'class:translate-role-translator' : {
                         'portuguese' : 'Tradutor',
                         'english' : 'Translator',
