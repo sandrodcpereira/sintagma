@@ -440,7 +440,7 @@ section {
 /* ABOUT */
 
 #about .container {
-	max-width: 750px;
+	max-width: 800px;
 	padding: 0 40px;
 	box-sizing: border-box;
 }
@@ -454,6 +454,13 @@ section {
 	margin-bottom: 40px;
 }
 
+#about .news {
+	display: block;
+	margin: 0 auto 40px auto;
+	max-width: 720px;
+	max-height: 600px;
+	border-radius: 8px;
+}
 
 /* TEAM */
 
