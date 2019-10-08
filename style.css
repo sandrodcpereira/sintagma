@@ -457,9 +457,14 @@ section {
 #about .news {
 	display: block;
 	margin: 0 auto 40px auto;
-	max-width: 720px;
-	max-height: 600px;
-	border-radius: 8px;
+	width: 100%;
+	max-width: 620px;
+}
+
+#about .news>img {
+	display: block;
+	width: 100%;
+	border-radius: 8px;	
 }
 
 /* TEAM */
