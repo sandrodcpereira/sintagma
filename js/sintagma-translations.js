@@ -37,9 +37,9 @@
                         }
                     }
                 },
-                /*
-                 * Translate your strings below
-                 */
+
+                // Translations start below
+
                 'strings' : {
                     'class:translate-current-lang' : {
                         'portuguese' : 'PT',
@@ -98,7 +98,6 @@
                         'french' : '[video ici]',
                     },
 
-
                     'class:translate-translation-title' : {
                         'portuguese' : 'Tradução',
                         'english' : 'Translation',
@@ -133,8 +132,6 @@
                         'french' : 'Lorem ipsum',
                     },
 
-                    //new, dubbing
-
                     'class:translate-dubbing-title' : {
                         'portuguese' : 'Dobragem',
                         'english' : 'Dubbing',
@@ -147,10 +144,6 @@
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
-
-                    // new, dubbing ends
-
-                    // new, about
 
                     'class:translate-about-title' : {
                         'portuguese' : 'Sobre a sintagma',
@@ -171,8 +164,6 @@
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
-
-
 
                     // new, about ends
 
@@ -220,7 +211,6 @@
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
-
 
                     'class:translate-testemonials' : {
                         'portuguese' : 'Testemunhos',
@@ -447,13 +437,5 @@
                         'spanish' : '#TODO',
                         'french' : '#TODO',
                     }
-
-
-
-
-
-
-
-
                 }
             });

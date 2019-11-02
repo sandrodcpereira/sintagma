@@ -37,7 +37,6 @@ $('.film').slick({
 	}]
 });
 
-
 $('#testimonials').slick({
 	slidesToShow: 1,
 	slidesToScroll: 1,
@@ -74,8 +73,6 @@ $(window).on('resize', function(){
 	    next(); 
 	});
 });
-
-
 
 $(document).ready(function() {
   $( ".ltool-language.portuguese" ).click();
