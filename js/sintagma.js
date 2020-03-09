@@ -169,6 +169,7 @@ $(function() {
 
 $( ".lang-flag-en" ).click(function() {
   $( ".ltool-language.english" ).click();
+  $('input.form-submit').attr('value', 'Send')
 });
 
 $( ".lang-flag-es" ).click(function() {
@@ -181,6 +182,7 @@ $( ".lang-flag-fr" ).click(function() {
 
 $( ".lang-flag-pt" ).click(function() {
   $( ".ltool-language.portuguese" ).click();
+  $('input.form-submit').attr('value', 'Enviar')
 });
 
 $('.lang-selector > li').click(function(){
@@ -200,12 +202,6 @@ $('.lang-indicator').click(function(event){
 
 $(document).click(function(){
    $('.lang-selector').fadeOut(); 
-});
-
-// form
-
-$( "#send-alias" ).click(function() {
-  $( "#send-actual" ).click();
 });
 
 
