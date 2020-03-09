@@ -147,6 +147,24 @@ section {
 	display: block;
 }
 
+
+/* accessibility! */
+
+.cta:focus, .clients:focus {
+	border: 2px solid yellow;
+}
+
+a:not(.cta):focus {
+	background-color: yellow;
+	border-radius: 4px;
+}
+
+.slick-dots > li > button:focus {
+	background-color: yellow;
+}
+
+/* accessibility ends! */
+
 .logo, .logo > span {
 	text-decoration: none;
 	height: 100px;
