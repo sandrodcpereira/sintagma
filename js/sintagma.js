@@ -1,3 +1,15 @@
+// accessibility 
+
+function handleFirstTab(e) {
+    if (e.keyCode === 9) { 
+        document.body.classList.add('tabbing'); // user is navigating website with tab key
+        window.removeEventListener('keydown', handleFirstTab);
+    }
+}
+
+window.addEventListener('keydown', handleFirstTab);
+
+
 // slider
 
 $('.film').slick({

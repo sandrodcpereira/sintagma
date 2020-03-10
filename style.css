@@ -154,7 +154,7 @@ section {
 }
 
 
-/* accessibility! */
+/* accessibility! 
 
 .cta:focus, .clients:focus {
 	border: 2px solid yellow;
@@ -171,6 +171,20 @@ a:not(.cta):focus {
 
 .slick-dots > li.slick-active > button:focus {
 	border: 2px solid yellow !important;
+}
+
+*/
+
+body.tabbing a:not(.cta):focus, 
+body.tabbing .slick-dots > li > button:focus, 
+body.tabbing .slick-dots > li.slick-active > button:focus,
+body.tabbing .clients:focus {
+	outline: 2px solid #a39fc4;
+}
+
+body.tabbing .cta:focus {
+	border: 2px solid #a39fc4;
+	outline: 2px solid #190a77;
 }
 
 /* accessibility ends! */
@@ -195,6 +209,7 @@ a:not(.cta):focus {
 .logo > span {
 	display: block;
 	background-image: url(img/logo-sintagma-header-1.svg);
+	text-align: center;
 }
 
 .lang-widget {
@@ -578,12 +593,12 @@ label, input, textarea {
 input[type="text"], input[type="email"], textarea {
 	padding: 10px;
 	border-radius: 6px;
-	border: 1px solid #a39ec5;
+	border: 2px solid #a39ec5;
 	margin: 10px 0 30px 0;
 }
 
 input:focus, textarea:focus {
-	border: 1px solid #190a77;
+	border: 2px solid #190a77;
 }
 
 label {
