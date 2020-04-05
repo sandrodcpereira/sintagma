@@ -150,7 +150,7 @@
 
                     // new, dubbing ends
 
-                     //new, audiodescription
+                    //new, audiodescription
 
                     'class:translate-audiodescription-title' : {
                         'portuguese' : 'Audiodescrição',
@@ -166,6 +166,23 @@
                     },
 
                     // new, audiodescription ends
+
+                    //new, accessibility
+
+                    'class:translate-accessibility-title' : {
+                        'portuguese' : 'Acessibilidade',
+                        'english' : 'Audio description',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+                    'class:translate-accessibility-content' : {
+                        'portuguese' : 'Lorem ipsum.',
+                        'english' : 'Lorem ipsum.',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+
+                    // new, accessibility ends
 
                     // new, about
 
