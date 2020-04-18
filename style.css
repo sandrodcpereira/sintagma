@@ -463,11 +463,9 @@ body.tabbing .cta:focus {
 #pixelbunker, #pixelbunker > span {background-image: url(img/clients/logo-pixelbunker.png);}
 #projectosglobais, #projectosglobais > span {background-image: url(img/clients/logo-projectosglobais.png);}
 #rtp, #rtp > span {background-image: url(img/clients/logo-rtp.png);}
-#traducta, #traducta > span {background-image: url(img/clients/logo-traducta.png);}
 #netflix, #netflix > span {background-image: url(img/clients/logo-netflix.png);}
 #tap, #tap > span {background-image: url(img/clients/logo-tap.png);}
 #cml, #cml > span {background-image: url(img/clients/logo-cml.png);}
-#vsi, #vsi > span {background-image: url(img/clients/logo-vsi.png);}
 #bimedica, #bimedica > span {background-image: url(img/clients/logo-bimedica.png);}
 #solegendas, #solegendas > span {background-image: url(img/clients/logo-solegendas.png);}
 #amazonprime, #amazonprime > span {background-image: url(img/clients/logo-amazonprime.png);}
@@ -482,6 +480,7 @@ body.tabbing .cta:focus {
 #ooona, #ooona > span {background-image: url(img/clients/logo-ooona.png);}
 #spot, #spot > span {background-image: url(img/clients/logo-spot.png);}
 #truestories, #truestories > span {background-image: url(img/clients/logo-truestories.png);}
+#hbo, #hbo > span {background-image: url(img/clients/logo-hbo.png);}
 
 /* ABOUT */
 
@@ -952,10 +951,8 @@ input[type="submit"].hidden {
 	#spot, #spot > span {background-image: url(img/clients/logo-spot@2x.png);}
 	#rtp, #rtp > span {background-image: url(img/clients/logo-rtp@2x.png);}
 	#netflix, #netflix > span {background-image: url(img/clients/logo-netflix@2x.png);}
-	#traducta, #traducta > span {background-image: url(img/clients/logo-traducta@2x.png);}
 	#tap, #tap > span {background-image: url(img/clients/logo-tap@2x.png);}
 	#cml, #cml > span {background-image: url(img/clients/logo-cml@2x.png);}
-	#vsi, #vsi > span {background-image: url(img/clients/logo-vsi@2x.png);}
 	#bimedica, #bimedica > span {background-image: url(img/clients/logo-bimedica@2x.png);}
 	#solegendas, #solegendas > span {background-image: url(img/clients/logo-solegendas@2x.png);}
 	#amazonprime, #amazonprime > span {background-image: url(img/clients/logo-amazonprime@2x.png);}
@@ -968,6 +965,7 @@ input[type="submit"].hidden {
 	#transtitles, #transtitles > span {background-image: url(img/clients/logo-transtitles@2x.png);}
 	#ccb, #ccb > span {background-image: url(img/clients/logo-ccb@2x.png);}
 	#truestories, #truestories > span {background-image: url(img/clients/logo-truestories@2x.png);}
+	#hbo, #hbo > span {background-image: url(img/clients/logo-hbo@2x.png);}
 
 	.clients, .clients > span {background-size: 200px;}
 	.team-item.foto-rosario {background-image: url(img/team/foto-rosario@2x.png);}
