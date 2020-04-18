@@ -481,6 +481,7 @@ body.tabbing .cta:focus {
 #ccb, #ccb > span {background-image: url(img/clients/logo-ccb.png);}
 #ooona, #ooona > span {background-image: url(img/clients/logo-ooona.png);}
 #spot, #spot > span {background-image: url(img/clients/logo-spot.png);}
+#truestories, #truestories > span {background-image: url(img/clients/logo-truestories.png);}
 
 /* ABOUT */
 
@@ -966,6 +967,7 @@ input[type="submit"].hidden {
 	#oney, #oney > span {background-image: url(img/clients/logo-oney@2x.png);}
 	#transtitles, #transtitles > span {background-image: url(img/clients/logo-transtitles@2x.png);}
 	#ccb, #ccb > span {background-image: url(img/clients/logo-ccb@2x.png);}
+	#truestories, #truestories > span {background-image: url(img/clients/logo-truestories@2x.png);}
 
 	.clients, .clients > span {background-size: 200px;}
 	.team-item.foto-rosario {background-image: url(img/team/foto-rosario@2x.png);}
