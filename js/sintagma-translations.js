@@ -99,54 +99,103 @@
                     },
 
 
+                    // services start below
+
+
                     'class:translate-translation-title' : {
-                        'portuguese' : 'Tradução',
-                        'english' : 'Translation',
+                        'portuguese' : 'Tradução Técnica',
+                        'english' : 'Lorem ipsum',
                         'spanish' : 'Lorem ipsum',
-                        'french' : 'Traduction',
+                        'french' : 'Lorem ipsum',
                     },
                     'class:translate-translation-content' : {
-                        'portuguese' : 'Os serviços de tradução são efectuados por profissionais especializados na área pretendida (<b>técnica</b> ou <b>literária</b>) e os textos são sujeitos a uma minuciosa revisão.',
-                        'english' : 'The translation services are performed by translators specialized in the desired area (<b>technical</b> or <b>literary</b>) and final texts are subject to a thorough review.',
+                        'portuguese' : 'Os serviços de tradução são efectuados por profissionais especializados na área pretendida e os textos são sujeitos a uma minuciosa revisão.',
+                        'english' : 'Lorem ipsum',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
-
-                    'class:translate-translation-content2' : {
-                        'portuguese' : 'A sintagma faz um orçamento/contrato para todos os projetos que lhe são solicitados, havendo assim um compromisso entre as partes sempre que haja adjudicação.',
-                        'english' : 'We provide quotations/contracts for all projects requested, in order to have a commitment between the parties involved.',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    },
-
 
                     'class:translate-subtitle-title' : {
-                        'portuguese' : 'Legendagem',
-                        'english' : 'Subtitling',
+                        'portuguese' : 'Tradução Audiovisual (TAV)',
+                        'english' : 'Lorem ipsum',
                         'spanish' : 'Lorem ipsum',
-                        'french' : 'Sous-titrage',
+                        'french' : 'Lorem ipsum',
                     },
+
                     'class:translate-subtitle-content' : {
-                        'portuguese' : 'O nosso serviço de <b>legendagem</b> para Televisão e Cinema dispõe de uma equipa de profissionais com formação específica em técnicas de tradução para Audiovisuais, assim como de software profissional regularmente atualizado.',
-                        'english' : 'Our <b>subtitling</b> team for Television and Cinema works with native translators with specific training in translation techniques for Audiovisuals, as well as professional and up-to-date software.',
+                        'portuguese' : 'O serviço de tradução audiovisual para Legendagem e Dobragem para Televisão e Cinema, em vários pares linguísticos, dispõe de uma equipa de profissionais com formação especializada e software profissional.',
+                        'english' : 'Lorem ipsum',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+
+                    'class:translate-subtitle-content2' : {
+                        'portuguese' : 'Além dos formatos de tradução convencionais, fornecemos também serviços de acessibilidade, Legendagem para surdos, para público surdo ou com deficiência auditiva, e Audiodescrição, vocacionada para o público com deficiência visual.',
+                        'english' : 'Lorem ipsum',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+
+                    'class:translate-interpretation-title' : {
+                        'portuguese' : 'Interpretação',
+                        'english' : 'Lorem ipsum',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+
+                    'class:translate-interpretation-content' : {
+                        'portuguese' : 'Organizamos equipas de interpretação simultânea para <b>reuniões</b>, <b>congressos</b> e <b>convenções</b> em várias línguas, dispondo de profissionais com formação específica na área.',
+                        'english' : 'Lorem ipsum',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+
+                    /* 'class:translate-multimedia-title' : {
+                        'portuguese' : 'Som e imagem',
+                        'english' : 'Sound and image',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+                    'class:translate-multimedia-content' : {
+                        'portuguese' : 'Dispomos de uma equipa de profissionais da área do <b>vídeo</b>, <b>fotografia</b>, <b>áudio</b>, <b><i>design</i></b> e <b>programação</b>, que surge de uma necessidade de produção de conteúdos próprios, de modo a dar corpo às ideias dos nossos clientes, pelas nossas mãos.',
+                        'english' : 'We have a team of <b>video</b>, <b>audio</b>, <b>design</b> and <b>programming</b> professionals created due to the rising need to satisfy our clients\' need to have their ideas take shape through our own means.',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    }, */
+
+                    'class:translate-training-title' : {
+                        'portuguese' : 'Formação',
+                        'english' : 'Lorem ipsum',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Formation',
+                    },
+                    'class:translate-training-content' : {
+                        'portuguese' : 'A sintagma organiza regularmente <b>cursos de formação certificados</b> de legendagem nas suas instalações em Oeiras, onde dispõe de equipamento adequado e individualizado.',
+                        'english' : 'sintagma regularly organizes <b>certified courses</b> in subtitling on its premises in Oeiras, where it has individual workstations and software to practice.',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+                    'class:translate-training-content2' : {
+                        'portuguese' : 'Proporcionamos estágios mediante protocolos com várias Universidades, entre elas a Faculdade de Letras de Lisboa, a Faculdade de Ciências Sociais e Humanas, da Universidade Nova de Lisboa, e a Universidade do Minho.',
+                        'english' : 'Lorem ipsum',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
                     //new, dubbing
 
-                    'class:translate-dubbing-title' : {
-                        'portuguese' : 'Dobragem',
-                        'english' : 'Dubbing',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Sous-titrage',
-                    },
-                    'class:translate-dubbing-content' : {
-                        'portuguese' : 'A sintagma tem o seu próprio estúdio de dobragem e uma equipa pronta a executar projetos de dobragem e sonorização (<i>voice-over</i>), dispondo de todos os meios necessários, técnicos e humanos.',
-                        'english' : 'Sintagma has its own dubbing studio and a skilled team ready to take on dubbing and voice-over projects and the necessary technical or human resources.',
+                    /* 'class:translate-dubbing-title' : {
+                        'portuguese' : 'Locução e Pós-Produção Áudio',
+                        'english' : 'Lorem ipsum',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
+                    'class:translate-dubbing-content' : {
+                        'portuguese' : 'A sintagma tem estúdio próprio e uma equipa pronta a executar projetos de locução, dobragem, sonorização e mistura de som, dispondo de todos os meios necessários, técnicos e humanos. Este conjunto de profissionais da área do <b>vídeo</b>, <b>fotografia</b>, <b>áudio</b>, <b><i>design</i></b> e <b>programação</b> tem experiência e criatividade para dar vida às ideias dos nossos clientes.',
+                        'english' : 'Lorem ipsum',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    }, */
 
                     // new, dubbing ends
 
@@ -154,12 +203,12 @@
 
                     'class:translate-audiodescription-title' : {
                         'portuguese' : 'Audiodescrição',
-                        'english' : 'Audio description',
+                        'english' : 'Lorem ipsum',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
                     'class:translate-audiodescription-content' : {
-                        'portuguese' : 'Lorem ipsum.',
+                        'portuguese' : 'A Sintagma presta serviços de acessibilidade e consultoria nas artes visuais e audiovisuais para o público com deficiência visual e intelectual. Elaboramos guiões de audiodescrição para televisão, cinema teatro e museus com profissionais qualificados. Também podemos proceder à gravação da narração dos guiões de AD no nosso estúdio, no formato desejado.',
                         'english' : 'Lorem ipsum.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
@@ -169,9 +218,9 @@
 
                     //new, accessibility
 
-                    'class:translate-accessibility-title' : {
+                    /* 'class:translate-accessibility-title' : {
                         'portuguese' : 'Acessibilidade',
-                        'english' : 'Audio description',
+                        'english' : 'Lorem ipsum',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
@@ -180,7 +229,7 @@
                         'english' : 'Lorem ipsum.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
-                    },
+                    }, */
 
                     // new, accessibility ends
 
@@ -210,50 +259,7 @@
 
                     // new, about ends
 
-                    'class:translate-interpretation-title' : {
-                        'portuguese' : 'Interpretação',
-                        'english' : 'Interpretation',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Interprétation',
-                    },
-                    'class:translate-interpretation-content' : {
-                        'portuguese' : 'Organizamos equipas de interpretação simultânea para <b>reuniões</b>, <b>congressos</b> e <b>convenções</b> em várias línguas, dispondo de profissionais com formação específica na área.',
-                        'english' : 'We organize teams for simultaneous interpretation in <b>meetings</b>, <b>conferences</b> and <b>conventions</b> in several languages, relying on professionals with specific training in the required area.',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    },
-
-                    'class:translate-multimedia-title' : {
-                        'portuguese' : 'Som e imagem',
-                        'english' : 'Sound and image',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    },
-                    'class:translate-multimedia-content' : {
-                        'portuguese' : 'Dispomos de uma equipa de profissionais da área do <b>vídeo</b>, <b>fotografia</b>, <b>áudio</b>, <b><i>design</i></b> e <b>programação</b>, que surge de uma necessidade de produção de conteúdos próprios, de modo a dar corpo às ideias dos nossos clientes, pelas nossas mãos.',
-                        'english' : 'We have a team of <b>video</b>, <b>audio</b>, <b>design</b> and <b>programming</b> professionals created due to the rising need to satisfy our clients\' need to have their ideas take shape through our own means.',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    },
-
-                    'class:translate-training-title' : {
-                        'portuguese' : 'Formação',
-                        'english' : 'Training',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Formation',
-                    },
-                    'class:translate-training-content' : {
-                        'portuguese' : 'A sintagma organiza regularmente <b>cursos de formação certificados</b> de legendagem nas suas instalações em Oeiras, onde dispõe de equipamento adequado e individualizado.',
-                        'english' : 'sintagma regularly organizes <b>certified courses</b> in subtitling on its premises in Oeiras, where it has individual workstations and software to practice.',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    },
-                    'class:translate-training-content2' : {
-                        'portuguese' : 'Proporcionamos estágios mediante protocolos com várias Universidades, entre elas a Faculdade de Letras de Lisboa, a Faculdade de Ciências Sociais e Humanas, da Universidade Nova de Lisboa, e a Universidade do Minho.',
-                        'english' : 'We provide traineeships with several universities, including the Lisbon Faculty of Arts and Humanities, the Faculty of Social and Human Sciences of the Universidade Nova de Lisboa, and the University of Minho.',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    },
+                    
 
 
                     'class:translate-testemonials' : {
