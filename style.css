@@ -544,6 +544,7 @@ body.tabbing .cta:focus {
 .team-item.foto-pedro {background-image: url(img/team/foto-pedro.png);}
 .team-item.foto-joao {background-image: url(img/team/foto-joao.png);}
 .team-item.foto-rita-f {background-image: url(img/team/foto-rita-f.png);}
+.team-item.foto-eliana {background-image: url(img/team/foto-eliana.png);}
 
 
 /* CONTACT */
@@ -978,6 +979,7 @@ input[type="submit"].hidden {
 	.team-item.foto-pedro {background-image: url(img/team/foto-pedro@2x.png);}
 	.team-item.foto-joao {background-image: url(img/team/foto-joao@2x.png);}
 	.team-item.foto-rita-f {background-image: url(img/team/foto-rita-f@2x.png);}
+	.team-item.foto-eliana {background-image: url(img/team/foto-eliana@2x.png);}
 
 	.logo-footer {
 		background-image: url('img/sintagma-logo-footer@2x.png');
