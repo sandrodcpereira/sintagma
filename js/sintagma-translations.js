@@ -169,12 +169,14 @@
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Formation',
                     },
+
                     'class:translate-training-content' : {
                         'portuguese' : 'A sintagma organiza regularmente <b>cursos de formação certificados</b> de legendagem nas suas instalações em Oeiras, onde dispõe de equipamento adequado e individualizado.',
                         'english' : 'sintagma regularly organizes <b>certified courses</b> in subtitling on its premises in Oeiras, where it has individual workstations and software to practice.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
+
                     'class:translate-training-content2' : {
                         'portuguese' : 'Proporcionamos estágios mediante protocolos com várias Universidades, entre elas a Faculdade de Letras de Lisboa, a Faculdade de Ciências Sociais e Humanas, da Universidade Nova de Lisboa, e a Universidade do Minho.',
                         'english' : 'Lorem ipsum',
@@ -447,6 +449,13 @@
                     'class:translate-role-assdir' : {
                         'portuguese' : 'Assistente de Direcção',
                         'english' : 'Assistant to CEO',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+
+                    'class:translate-role-accessibility' : {
+                        'portuguese' : 'Coordenadora de Acessibilidade',
+                        'english' : 'Accessibility Specialist',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },

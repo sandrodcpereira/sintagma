@@ -467,7 +467,7 @@ body.tabbing .cta:focus {
 #tap, #tap > span {background-image: url(img/clients/logo-tap.png);}
 #cml, #cml > span {background-image: url(img/clients/logo-cml.png);}
 #bimedica, #bimedica > span {background-image: url(img/clients/logo-bimedica.png);}
-#solegendas, #solegendas > span {background-image: url(img/clients/logo-solegendas.png);}
+/* #solegendas, #solegendas > span {background-image: url(img/clients/logo-solegendas.png);} */
 #amazonprime, #amazonprime > span {background-image: url(img/clients/logo-amazonprime.png);}
 #discovery, #discovery > span {background-image: url(img/clients/logo-discovery.png);}
 #maat, #maat > span {background-image: url(img/clients/logo-maat.png);}
@@ -481,6 +481,9 @@ body.tabbing .cta:focus {
 #spot, #spot > span {background-image: url(img/clients/logo-spot.png);}
 #truestories, #truestories > span {background-image: url(img/clients/logo-truestories.png);}
 #hbo, #hbo > span {background-image: url(img/clients/logo-hbo.png);}
+#cli-flul, #cli-flul > span {background-image: url(img/clients/logo-cli-flul.png);}
+#atav, #atav > span {background-image: url(img/clients/logo-atav.png);}
+#aptrad, #aptrad > span {background-image: url(img/clients/logo-aptrad.png);}
 
 /* ABOUT */
 
@@ -515,9 +518,10 @@ body.tabbing .cta:focus {
 /* TEAM */
 
 .team-item {
+	vertical-align: top;
 	margin-top: 40px;
 	padding-top: 160px;
-	width: 300px;
+	width: 240px;
 	padding-bottom: 20px;
 	display: inline-block;
 	background-repeat: no-repeat;
@@ -955,7 +959,7 @@ input[type="submit"].hidden {
 	#tap, #tap > span {background-image: url(img/clients/logo-tap@2x.png);}
 	#cml, #cml > span {background-image: url(img/clients/logo-cml@2x.png);}
 	#bimedica, #bimedica > span {background-image: url(img/clients/logo-bimedica@2x.png);}
-	#solegendas, #solegendas > span {background-image: url(img/clients/logo-solegendas@2x.png);}
+	/* #solegendas, #solegendas > span {background-image: url(img/clients/logo-solegendas@2x.png);} */
 	#amazonprime, #amazonprime > span {background-image: url(img/clients/logo-amazonprime@2x.png);}
 	#discovery, #discovery > span {background-image: url(img/clients/logo-discovery@2x.png);}
 	#maat, #maat > span {background-image: url(img/clients/logo-maat@2x.png);}
@@ -967,6 +971,9 @@ input[type="submit"].hidden {
 	#ccb, #ccb > span {background-image: url(img/clients/logo-ccb@2x.png);}
 	#truestories, #truestories > span {background-image: url(img/clients/logo-truestories@2x.png);}
 	#hbo, #hbo > span {background-image: url(img/clients/logo-hbo@2x.png);}
+	#cli-flul, #cli-flul > span {background-image: url(img/clients/logo-cli-flul@2x.png);}
+	#atav, #atav > span {background-image: url(img/clients/logo-atav@2x.png);}
+	#aptrad, #aptrad > span {background-image: url(img/clients/logo-aptrad@2x.png);}
 
 	.clients, .clients > span {background-size: 200px;}
 	.team-item.foto-rosario {background-image: url(img/team/foto-rosario@2x.png);}
