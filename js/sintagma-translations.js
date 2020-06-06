@@ -100,140 +100,112 @@
 
 
                     // services start below
-
-
-                    'class:translate-translation-title' : {
-                        'portuguese' : 'Tradução Técnica',
-                        'english' : 'Lorem ipsum',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    },
-                    'class:translate-translation-content' : {
-                        'portuguese' : 'Os serviços de tradução são efectuados por profissionais especializados na área pretendida e os textos são sujeitos a uma minuciosa revisão.',
-                        'english' : 'Lorem ipsum',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    },
+                    // 1
 
                     'class:translate-subtitle-title' : {
                         'portuguese' : 'Tradução Audiovisual (TAV)',
-                        'english' : 'Lorem ipsum',
+                        'english' : 'Audiovisual Translation (AVT)',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
                     'class:translate-subtitle-content' : {
                         'portuguese' : 'O serviço de tradução audiovisual para Legendagem e Dobragem para Televisão e Cinema, em vários pares linguísticos, dispõe de uma equipa de profissionais com formação especializada e software profissional.',
-                        'english' : 'Lorem ipsum',
+                        'english' : 'We have a multilingual team of professionals with specialized training in audiovisual translation for Subtitling and Dubbing for Television and Cinema, who work with professional software.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
                     'class:translate-subtitle-content2' : {
-                        'portuguese' : 'Além dos formatos de tradução convencionais, fornecemos também serviços de acessibilidade, Legendagem para surdos, para público surdo ou com deficiência auditiva, e Audiodescrição, vocacionada para o público com deficiência visual.',
-                        'english' : 'Lorem ipsum',
+                        'portuguese' : 'Além dos formatos de tradução convencionais, fornecemos também serviços de acessibilidade, Legendagem para surdos e Audiodescrição para o público com deficiência visual.',
+                        'english' : 'In addition to conventional translation formats, we also provide accessibility services, such as, subtitling for the deaf and hard-of-hearing (SDH) and Audio description for the blind and visually impaired.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
+                    // 2
+
+                    'class:translate-audiodescription-title' : {
+                        'portuguese' : 'Audiodescrição',
+                        'english' : 'Audio Description',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+                    'class:translate-audiodescription-content' : {
+                        'portuguese' : 'A Sintagma presta serviços de acessibilidade e consultoria nas artes visuais e audiovisuais para o público com deficiência visual e intelectual. Os nossos profissionais qualificados elaboram guiões de audiodescrição para televisão, cinema, teatro e museus. Também fazemos a gravação da narração dos guiões de AD no nosso estúdio, no formato desejado.',
+                        'english' : 'Sintagma provides access and consulting services in visual and audiovisual arts for the blind and for people with learning disabilities. Our qualified professionals develop audio description scripts for television, cinema, theatre and museums. We also do the recording of AD scripts in our studio, in the format of your choice.',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+
+                    // 3
+
+                    'class:translate-dubbing-title' : {
+                        'portuguese' : 'Locução e Pós-Produção Áudio',
+                        'english' : 'Voice-over and Sound Post-Production',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+                    'class:translate-dubbing-content' : {
+                        'portuguese' : 'A Sintagma tem estúdio próprio e uma equipa pronta a executar projetos de locução, dobragem, sonorização e mistura de som, dispondo de todos os meios necessários, técnicos e humanos. Este conjunto de profissionais da área do <b>vídeo</b>, <b>fotografia</b>, <b>áudio</b>, <b><i>design</i></b> e <b>programação</b> tem experiência e criatividade para dar vida às ideias dos nossos clientes.',
+                        'english' : 'Sintagma has its own recording studio and a team ready to carry out voiceover, dubbing, sound and sound mixing projects. This group of creative professionals specialize in <b>video</b>, <b>photography</b>, <b>audio</b>, <b>design</b> and <b>programming</b>. We have the necessary technical and skilled human resources to bring our clients\' ideas to life.',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+
+                    // 4
+
+                    'class:translate-translation-title' : {
+                        'portuguese' : 'Tradução Técnica',
+                        'english' : 'Technical Translation',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+                    'class:translate-translation-content' : {
+                        'portuguese' : 'Os serviços de tradução são efectuados por profissionais especializados na área pretendida e os textos são sujeitos a uma minuciosa revisão.',
+                        'english' : 'The translation services are carried out by specialized professionals in the field and the texts are subject to a thorough quality control.',
+                        'spanish' : 'Lorem ipsum',
+                        'french' : 'Lorem ipsum',
+                    },
+
+                    // 5
+
                     'class:translate-interpretation-title' : {
                         'portuguese' : 'Interpretação',
-                        'english' : 'Lorem ipsum',
+                        'english' : 'Interpreting',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
                     'class:translate-interpretation-content' : {
-                        'portuguese' : 'Organizamos equipas de interpretação simultânea para <b>reuniões</b>, <b>congressos</b> e <b>convenções</b> em várias línguas, dispondo de profissionais com formação específica na área.',
-                        'english' : 'Lorem ipsum',
+                        'portuguese' : 'Organizamos equipas de interpretação simultânea para <b>reuniões</b>, <b>congressos</b>, <b>convenções</b> e <b>cimeiras</b> em várias línguas, dispondo de profissionais com formação específica na área.',
+                        'english' : 'We set up multilingual simultaneous and consecutive interpretation for <b>meetings</b>, <b>conferences</b>, <b>conventions</b> and <b>summits</b>. Our team is composed of trained professionals.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
-                    /* 'class:translate-multimedia-title' : {
-                        'portuguese' : 'Som e imagem',
-                        'english' : 'Sound and image',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    },
-                    'class:translate-multimedia-content' : {
-                        'portuguese' : 'Dispomos de uma equipa de profissionais da área do <b>vídeo</b>, <b>fotografia</b>, <b>áudio</b>, <b><i>design</i></b> e <b>programação</b>, que surge de uma necessidade de produção de conteúdos próprios, de modo a dar corpo às ideias dos nossos clientes, pelas nossas mãos.',
-                        'english' : 'We have a team of <b>video</b>, <b>audio</b>, <b>design</b> and <b>programming</b> professionals created due to the rising need to satisfy our clients\' need to have their ideas take shape through our own means.',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    }, */
+                    // 6
 
                     'class:translate-training-title' : {
                         'portuguese' : 'Formação',
-                        'english' : 'Lorem ipsum',
+                        'english' : 'Training',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Formation',
                     },
 
                     'class:translate-training-content' : {
-                        'portuguese' : 'A sintagma organiza regularmente <b>cursos de formação certificados</b> de legendagem nas suas instalações em Oeiras, onde dispõe de equipamento adequado e individualizado.',
-                        'english' : 'sintagma regularly organizes <b>certified courses</b> in subtitling on its premises in Oeiras, where it has individual workstations and software to practice.',
+                        'portuguese' : 'A Sintagma organiza regularmente <b>cursos de formação certificados</b> de legendagem e audiodescrição online e nas suas instalações em Carcavelos, onde dispõe de equipamento adequado e individualizado. Através das nossas parcerias, também oferecemos descontos a associados da ATAV e da APTRAD.',
+                        'english' : 'Sintagma regularly holds <b>certified training courses</b> in subtitling and audio description, both online and in our premises in Carcavelos, where we have available workstations and software for the participants to practice. Through our partnerships, we also offer discounts to ATAV and APTRAD members.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
                     'class:translate-training-content2' : {
                         'portuguese' : 'Proporcionamos estágios mediante protocolos com várias Universidades, entre elas a Faculdade de Letras de Lisboa, a Faculdade de Ciências Sociais e Humanas, da Universidade Nova de Lisboa, e a Universidade do Minho.',
-                        'english' : 'Lorem ipsum',
+                        'english' : 'We provide internships through protocols with various Universities, including the Lisbon Faculty of Arts, the Faculty of Social and Human Sciences of the Universidade Nova de Lisboa and the University of Minho.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
-
-                    //new, dubbing
-
-                    /* 'class:translate-dubbing-title' : {
-                        'portuguese' : 'Locução e Pós-Produção Áudio',
-                        'english' : 'Lorem ipsum',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    },
-                    'class:translate-dubbing-content' : {
-                        'portuguese' : 'A sintagma tem estúdio próprio e uma equipa pronta a executar projetos de locução, dobragem, sonorização e mistura de som, dispondo de todos os meios necessários, técnicos e humanos. Este conjunto de profissionais da área do <b>vídeo</b>, <b>fotografia</b>, <b>áudio</b>, <b><i>design</i></b> e <b>programação</b> tem experiência e criatividade para dar vida às ideias dos nossos clientes.',
-                        'english' : 'Lorem ipsum',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    }, */
-
-                    // new, dubbing ends
-
-                    //new, audiodescription
-
-                    'class:translate-audiodescription-title' : {
-                        'portuguese' : 'Audiodescrição',
-                        'english' : 'Lorem ipsum',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    },
-                    'class:translate-audiodescription-content' : {
-                        'portuguese' : 'A Sintagma presta serviços de acessibilidade e consultoria nas artes visuais e audiovisuais para o público com deficiência visual e intelectual. Elaboramos guiões de audiodescrição para televisão, cinema teatro e museus com profissionais qualificados. Também podemos proceder à gravação da narração dos guiões de AD no nosso estúdio, no formato desejado.',
-                        'english' : 'Lorem ipsum.',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    },
-
-                    // new, audiodescription ends
-
-                    //new, accessibility
-
-                    /* 'class:translate-accessibility-title' : {
-                        'portuguese' : 'Acessibilidade',
-                        'english' : 'Lorem ipsum',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    },
-                    'class:translate-accessibility-content' : {
-                        'portuguese' : 'Lorem ipsum.',
-                        'english' : 'Lorem ipsum.',
-                        'spanish' : 'Lorem ipsum',
-                        'french' : 'Lorem ipsum',
-                    }, */
-
-                    // new, accessibility ends
 
                     // new, about
 
@@ -264,7 +236,7 @@
                     
 
 
-                    'class:translate-testemonials' : {
+                    'class:translate-testimonials' : {
                         'portuguese' : 'Testemunhos',
                         'english' : 'Testemonials',
                         'spanish' : 'Lorem ipsum',
@@ -307,76 +279,76 @@
                         'french' : 'Réseaux sociaux',
                     },
 
-                    'class:translate-testemonial1-body' : {
+                    'class:translate-testimonial1-body' : {
                         'portuguese' : 'A colaboração com a sintagma na leccionação de seminários de pós-graduação em Tradução Audiovisual inglês-português e alemão-português foi uma oportunidade muito produtiva que me permitiu ficar a conhecer a qualidade, o rigor, a exigência e o profissionalismo do trabalho desenvolvido na sintagma, bem como o empenho na formação dos seus colaboradores.',
                         'english' : 'Collaborating with sintagma in the teaching of graduate seminars in Audiovisual Translation (English-Portuguese and German-Portuguese) was a very productive opportunity that enabled me to get to know the quality, precision, exigency and professionalism of the work carried out by sintagma as well as the commitment to training its employees.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
-                    'class:translate-testemonial1-who' : {
+                    'class:translate-testimonial1-who' : {
                         'portuguese' : 'Alexandra Assis Rosa - Professora TAV/FLUL',
                         'english' : 'Alexandra Assis Rosa - Professor TAV/FLUL',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
-                    'class:translate-testemonial2-body' : {
+                    'class:translate-testimonial2-body' : {
                         'portuguese' : 'O trabalho de tradução levado a cabo na sintagma é de louvar, não só pelo profissionalismo com que é desempenhado, mas também por ser o resultado de anos de experiência e de um profundo conhecimento dos desafios linguísticos e culturais que se erguem no processo de tradução.',
                         'english' : 'The translation work carried out in sintagma is to be commended, not only for the professionalism with which it is performed, but also because it is the result of years of experience and a deep understanding of the linguistic and cultural challenges in the translation process.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
-                    'class:translate-testemonial2-who' : {
+                    'class:translate-testimonial2-who' : {
                         'portuguese' : 'Sara Ramos Pinto - Professora Universitária e Investigadora',
                         'english' : 'Sara Ramos Pinto - University Professor and Researcher / Experienced Researcher - European Project TIME',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
-                    'class:translate-testemonial3-body' : {
+                    'class:translate-testimonial3-body' : {
                         'portuguese' : 'Após um ano de formação com a Dr.ª Rosário Valadas Vieira, que me ensinou tudo o que sei, e ao fim de quase quatro anos de colaboração, posso dizer que a sintagma continua, até hoje, a ser a minha "casa". Recomendo a sintagma não só a clientes, como a futuros colaboradores. A empresa e a Dr.ª Rosário são um verdadeiro exemplo no mercado da tradução.',
                         'english' : 'After a year of training with Rosário Valadas Vieira, who taught me everything I know, and after almost four years of collaboration, I can say that sintagma continues to this day to be my \'home\'. I recommend sintagma not only to customers but also future employees. The company and Rosario are certainly a benchmark in the translation market.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
-                    'class:translate-testemonial3-who' : {
+                    'class:translate-testimonial3-who' : {
                         'portuguese' : 'Ana Filipa Vieira - Tradutora',
                         'english' : 'Ana Filipa Vieira - Translator',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
-                    'class:translate-testemonial4-body' : {
+                    'class:translate-testimonial4-body' : {
                         'portuguese' : 'A sintagma, na pessoa da Dra. Rosário Valadas Vieira, transmitiu-me as ferramentas que me permitem trabalhar hoje como Legendadora.',
                         'english' : 'sintagma, in the person of Rosário Valadas Vieira, gave me the tools that allow me to work today as a Subtitler.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
-                    'class:translate-testemonial4-body2' : {
+                    'class:translate-testimonial4-body2' : {
                         'portuguese' : 'Para além dos seus vastos conhecimentos na área, tem uma grande apetência para ensinar e, graças à sua presença afável, gera uma empatia que facilita a aprendizagem e contribui para tornar as aulas em momentos não só úteis como muito agradáveis.',
                         'english' : 'In addition to her extensive knowledge in the area, she has a great zeal for teaching and thanks to her friendliness and affable approach, her empathic nature facilitates learning and helps to make lessons not only useful but also very pleasant.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
-                    'class:translate-testemonial4-who' : {
+                    'class:translate-testimonial4-who' : {
                         'portuguese' : 'Paula Amaral - Tradutora',
                         'english' : 'Paula Amaral - Translator',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
-                    'class:translate-testemonial5-body' : {
+                    'class:translate-testimonial5-body' : {
                         'portuguese' : 'A Sintagma Traduções foi sempre uma empresa de referência na área da Tradução e Legendagem, pelo que recomendo vivamente os seus serviços.',
                         'english' : 'Sintagma Traduções has always been a benchmark in the field of translation and subtitling, so I highly recommend their services.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
-                    'class:translate-testemonial5-who' : {
+                    'class:translate-testimonial5-who' : {
                         'portuguese' : 'Jorge Almeida e Pinho - Tradutor',
                         'english' : 'Jorge Almeida e Pinho - Translator',
                         'spanish' : 'Lorem ipsum',
