@@ -12,6 +12,10 @@ body {height: 100%; font-family: "Azo Sans", "azo-sans-web", sans-serif; font-st
 
 /* #sintagma-page {display: none;} */
 
+body {
+	box-sizing: border-box;
+}
+
 hr {
 	width: 100%;
 	height: 120px;
@@ -47,6 +51,7 @@ p {font-size: 16px; line-height: 22px; margin-bottom: 10px}
 	width: 180px;
 	text-decoration: none;
 	background-color: #d02003;
+	border: 2px solid #d02003;
 	padding: 10px 20px;
 	color: #ffffff;
 	font-weight: 700;
@@ -55,6 +60,7 @@ p {font-size: 16px; line-height: 22px; margin-bottom: 10px}
 	margin: 50px auto 0 auto;
 	transition: background-color .1s;
 	cursor: pointer;
+	text-align: center;
 }
 
 .cta:hover {
@@ -147,6 +153,42 @@ section {
 	display: block;
 }
 
+
+/* accessibility! 
+
+.cta:focus, .clients:focus {
+	border: 2px solid yellow;
+}
+
+a:not(.cta):focus {
+	background-color: yellow;
+	border-radius: 4px;
+}
+
+.slick-dots > li > button:focus {
+	background-color: yellow;
+}
+
+.slick-dots > li.slick-active > button:focus {
+	border: 2px solid yellow !important;
+}
+
+*/
+
+body.tabbing a:not(.cta):focus, 
+body.tabbing .slick-dots > li > button:focus, 
+body.tabbing .slick-dots > li.slick-active > button:focus,
+body.tabbing .clients:focus {
+	outline: 2px solid #a39fc4;
+}
+
+body.tabbing .cta:focus {
+	border: 2px solid #a39fc4;
+	outline: 2px solid #190a77;
+}
+
+/* accessibility ends! */
+
 .logo, .logo > span {
 	text-decoration: none;
 	height: 100px;
@@ -167,6 +209,7 @@ section {
 .logo > span {
 	display: block;
 	background-image: url(img/logo-sintagma-header-1.svg);
+	text-align: center;
 }
 
 .lang-widget {
@@ -322,6 +365,8 @@ section {
 .item-z.revision {background-image: url(img/services/icon-revision.svg);}
 .item-z.training {background-image: url(img/services/icon-training.svg);}
 .item-z.multimedia {background-image: url(img/services/icon-multimedia.svg);}
+.item-z.audiodescription {background-image: url(img/services/icon-audiodescription.svg);}
+.item-z.accessibility {background-image: url(img/services/icon-accessibility.svg);}
 
 
 /* TESTIMONIALS */
@@ -412,19 +457,17 @@ section {
 
 }
 
-#fantasporto, #fantasporto > span {background-image: url(img/clients/logo-fantasporto.png);}
-#judaica, #judaica > span {background-image: url(img/clients/logo-judaica.png);}
+#adagietto, #adagietto > span {background-image: url(img/clients/logo-adagietto.png);}
+#traducta, #traducta > span {background-image: url(img/clients/logo-traducta.png);}
 #nestle, #nestle > span {background-image: url(img/clients/logo-nestle.png);}
 #pixelbunker, #pixelbunker > span {background-image: url(img/clients/logo-pixelbunker.png);}
 #projectosglobais, #projectosglobais > span {background-image: url(img/clients/logo-projectosglobais.png);}
 #rtp, #rtp > span {background-image: url(img/clients/logo-rtp.png);}
-#traducta, #traducta > span {background-image: url(img/clients/logo-traducta.png);}
 #netflix, #netflix > span {background-image: url(img/clients/logo-netflix.png);}
 #tap, #tap > span {background-image: url(img/clients/logo-tap.png);}
 #cml, #cml > span {background-image: url(img/clients/logo-cml.png);}
-#vsi, #vsi > span {background-image: url(img/clients/logo-vsi.png);}
 #bimedica, #bimedica > span {background-image: url(img/clients/logo-bimedica.png);}
-#solegendas, #solegendas > span {background-image: url(img/clients/logo-solegendas.png);}
+/* #solegendas, #solegendas > span {background-image: url(img/clients/logo-solegendas.png);} */
 #amazonprime, #amazonprime > span {background-image: url(img/clients/logo-amazonprime.png);}
 #discovery, #discovery > span {background-image: url(img/clients/logo-discovery.png);}
 #maat, #maat > span {background-image: url(img/clients/logo-maat.png);}
@@ -436,6 +479,11 @@ section {
 #ccb, #ccb > span {background-image: url(img/clients/logo-ccb.png);}
 #ooona, #ooona > span {background-image: url(img/clients/logo-ooona.png);}
 #spot, #spot > span {background-image: url(img/clients/logo-spot.png);}
+#truestories, #truestories > span {background-image: url(img/clients/logo-truestories.png);}
+#hbo, #hbo > span {background-image: url(img/clients/logo-hbo.png);}
+#cli-flul, #cli-flul > span {background-image: url(img/clients/logo-cli-flul.png);}
+#atav, #atav > span {background-image: url(img/clients/logo-atav.png);}
+#aptrad, #aptrad > span {background-image: url(img/clients/logo-aptrad.png);}
 
 /* ABOUT */
 
@@ -470,9 +518,10 @@ section {
 /* TEAM */
 
 .team-item {
+	vertical-align: top;
 	margin-top: 40px;
 	padding-top: 160px;
-	width: 300px;
+	width: 240px;
 	padding-bottom: 20px;
 	display: inline-block;
 	background-repeat: no-repeat;
@@ -499,6 +548,7 @@ section {
 .team-item.foto-pedro {background-image: url(img/team/foto-pedro.png);}
 .team-item.foto-joao {background-image: url(img/team/foto-joao.png);}
 .team-item.foto-rita-f {background-image: url(img/team/foto-rita-f.png);}
+.team-item.foto-eliana {background-image: url(img/team/foto-eliana.png);}
 
 
 /* CONTACT */
@@ -549,7 +599,7 @@ label, input, textarea {
 input[type="text"], input[type="email"], textarea {
 	padding: 10px;
 	border-radius: 6px;
-	border: 1px solid #a39ec5;
+	border: 2px solid #a39ec5;
 	margin: 10px 0 30px 0;
 }
 
@@ -568,7 +618,9 @@ textarea {
 	height: 180px;
 }
 
-input[type="submit"] {display: none;}
+input[type="submit"].hidden {
+	display: none;
+}
 
 
 /* MOVING HEADERS */
@@ -895,8 +947,8 @@ input[type="submit"] {display: none;}
 /* RETINA ASSETS */
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-	#fantasporto, #fantasporto > span {background-image: url(img/clients/logo-fantasporto@2x.png);}
-	#judaica, #judaica > span {background-image: url(img/clients/logo-judaica@2x.png);}
+	#adagietto, #adagietto > span {background-image: url(img/clients/logo-adagietto@2x.png);}
+	#traducta, #traducta > span {background-image: url(img/clients/logo-traducta@2x.png);}
 	#nestle, #nestle > span {background-image: url(img/clients/logo-nestle@2x.png);}
 	#pixelbunker, #pixelbunker > span {background-image: url(img/clients/logo-pixelbunker@2x.png);}
 	#projectosglobais, #projectosglobais > span {background-image: url(img/clients/logo-projectosglobais@2x.png);}
@@ -904,12 +956,10 @@ input[type="submit"] {display: none;}
 	#spot, #spot > span {background-image: url(img/clients/logo-spot@2x.png);}
 	#rtp, #rtp > span {background-image: url(img/clients/logo-rtp@2x.png);}
 	#netflix, #netflix > span {background-image: url(img/clients/logo-netflix@2x.png);}
-	#traducta, #traducta > span {background-image: url(img/clients/logo-traducta@2x.png);}
 	#tap, #tap > span {background-image: url(img/clients/logo-tap@2x.png);}
 	#cml, #cml > span {background-image: url(img/clients/logo-cml@2x.png);}
-	#vsi, #vsi > span {background-image: url(img/clients/logo-vsi@2x.png);}
 	#bimedica, #bimedica > span {background-image: url(img/clients/logo-bimedica@2x.png);}
-	#solegendas, #solegendas > span {background-image: url(img/clients/logo-solegendas@2x.png);}
+	/* #solegendas, #solegendas > span {background-image: url(img/clients/logo-solegendas@2x.png);} */
 	#amazonprime, #amazonprime > span {background-image: url(img/clients/logo-amazonprime@2x.png);}
 	#discovery, #discovery > span {background-image: url(img/clients/logo-discovery@2x.png);}
 	#maat, #maat > span {background-image: url(img/clients/logo-maat@2x.png);}
@@ -919,6 +969,11 @@ input[type="submit"] {display: none;}
 	#oney, #oney > span {background-image: url(img/clients/logo-oney@2x.png);}
 	#transtitles, #transtitles > span {background-image: url(img/clients/logo-transtitles@2x.png);}
 	#ccb, #ccb > span {background-image: url(img/clients/logo-ccb@2x.png);}
+	#truestories, #truestories > span {background-image: url(img/clients/logo-truestories@2x.png);}
+	#hbo, #hbo > span {background-image: url(img/clients/logo-hbo@2x.png);}
+	#cli-flul, #cli-flul > span {background-image: url(img/clients/logo-cli-flul@2x.png);}
+	#atav, #atav > span {background-image: url(img/clients/logo-atav@2x.png);}
+	#aptrad, #aptrad > span {background-image: url(img/clients/logo-aptrad@2x.png);}
 
 	.clients, .clients > span {background-size: 200px;}
 	.team-item.foto-rosario {background-image: url(img/team/foto-rosario@2x.png);}
@@ -931,6 +986,7 @@ input[type="submit"] {display: none;}
 	.team-item.foto-pedro {background-image: url(img/team/foto-pedro@2x.png);}
 	.team-item.foto-joao {background-image: url(img/team/foto-joao@2x.png);}
 	.team-item.foto-rita-f {background-image: url(img/team/foto-rita-f@2x.png);}
+	.team-item.foto-eliana {background-image: url(img/team/foto-eliana@2x.png);}
 
 	.logo-footer {
 		background-image: url('img/sintagma-logo-footer@2x.png');
