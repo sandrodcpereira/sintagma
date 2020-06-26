@@ -457,8 +457,8 @@ body.tabbing .cta:focus {
 
 }
 
-#fantasporto, #fantasporto > span {background-image: url(img/clients/logo-fantasporto.png);}
-#judaica, #judaica > span {background-image: url(img/clients/logo-judaica.png);}
+#adagietto, #adagietto > span {background-image: url(img/clients/logo-adagietto.png);}
+#traducta, #traducta > span {background-image: url(img/clients/logo-traducta.png);}
 #nestle, #nestle > span {background-image: url(img/clients/logo-nestle.png);}
 #pixelbunker, #pixelbunker > span {background-image: url(img/clients/logo-pixelbunker.png);}
 #projectosglobais, #projectosglobais > span {background-image: url(img/clients/logo-projectosglobais.png);}
@@ -947,8 +947,8 @@ input[type="submit"].hidden {
 /* RETINA ASSETS */
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-	#fantasporto, #fantasporto > span {background-image: url(img/clients/logo-fantasporto@2x.png);}
-	#judaica, #judaica > span {background-image: url(img/clients/logo-judaica@2x.png);}
+	#adagietto, #adagietto > span {background-image: url(img/clients/logo-adagietto@2x.png);}
+	#traducta, #traducta > span {background-image: url(img/clients/logo-traducta@2x.png);}
 	#nestle, #nestle > span {background-image: url(img/clients/logo-nestle@2x.png);}
 	#pixelbunker, #pixelbunker > span {background-image: url(img/clients/logo-pixelbunker@2x.png);}
 	#projectosglobais, #projectosglobais > span {background-image: url(img/clients/logo-projectosglobais@2x.png);}
