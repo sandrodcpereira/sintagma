@@ -103,15 +103,15 @@
                     // 1
 
                     'class:translate-subtitle-title' : {
-                        'portuguese' : 'Tradução Audiovisual (TAV)',
-                        'english' : 'Audiovisual Translation (AVT)',
+                        'portuguese' : 'Tradução Audiovisual',
+                        'english' : 'Audiovisual Translation',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
 
                     'class:translate-subtitle-content' : {
-                        'portuguese' : 'O serviço de tradução audiovisual para Legendagem e Dobragem para Televisão e Cinema, em vários pares linguísticos, dispõe de uma equipa de profissionais com formação especializada e software profissional.',
-                        'english' : 'We have a multilingual team of professionals with specialized training in audiovisual translation for Subtitling and Dubbing for Television and Cinema, who work with professional software.',
+                        'portuguese' : 'O serviço de tradução audiovisual (TAV) para Legendagem e Dobragem para Televisão e Cinema, em vários pares linguísticos, dispõe de uma equipa de profissionais com formação especializada e software profissional.',
+                        'english' : 'We have a multilingual team of professionals with specialized training in audiovisual translation (AVT) for Subtitling and Dubbing for Television and Cinema, who work with professional software.',
                         'spanish' : 'Lorem ipsum',
                         'french' : 'Lorem ipsum',
                     },
