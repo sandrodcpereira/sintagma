@@ -218,3 +218,22 @@ $(document).click(function(){
 
 
 
+
+$('.video-toggle.disabled').click(function(){
+	$('.video-toggle.disabled').hide();
+	$('.video-toggle.enabled').show();
+	$('.video-sign-language').show();
+	$('.video-normal').hide();
+});
+
+$('.video-toggle.enabled').click(function(){
+	$('.video-toggle.enabled').hide();
+	$('.video-toggle.disabled').show();
+	$('.video-sign-language').hide();
+	$('.video-normal').show();
+});
+
+
+$('.video-toggle.enabled').hide();
+$('.video-sign-language').hide();
+
