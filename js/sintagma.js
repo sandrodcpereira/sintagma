@@ -224,6 +224,9 @@ $('.video-toggle.disabled').click(function(){
 	$('.video-toggle.enabled').show();
 	$('.video-sign-language').show();
 	$('.video-normal').hide();
+	setTimeout(function() {
+    	$('.video-toggle > .toggle').addClass("on");
+	}, 5);
 });
 
 $('.video-toggle.enabled').click(function(){
@@ -231,6 +234,9 @@ $('.video-toggle.enabled').click(function(){
 	$('.video-toggle.disabled').show();
 	$('.video-sign-language').hide();
 	$('.video-normal').show();
+	setTimeout(function() {
+    	$('.video-toggle > .toggle').removeClass("on");
+	}, 5);
 });
 
 
