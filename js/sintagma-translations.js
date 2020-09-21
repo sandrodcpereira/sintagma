@@ -471,14 +471,14 @@
 
                     'class:translate-video-toggle-on' : {
                         'portuguese' : 'Linguagem Gestual',
-                        'english' : 'Sign Language',
+                        'english' : 'Portuguese sign language',
                         'spanish' : 'ES',
                         'french' : 'FR',
                     },
 
                     'class:translate-video-toggle-off' : {
                         'portuguese' : 'Linguagem Gestual',
-                        'english' : 'Sign Language',
+                        'english' : 'Portuguese sign language',
                         'spanish' : 'ES',
                         'french' : 'FR',
                     }
